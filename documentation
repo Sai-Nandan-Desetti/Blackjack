@@ -12,7 +12,8 @@
 PROJECT_NAME           = "Blackjack"
 PROJECT_NUMBER         = 
 INPUT                  = 
-OUTPUT_DIRECTORY       = docs
+HTML_EXTENSION         = ''
+HTML_OUTPUT            = docs
 JAVADOC_AUTOBRIEF      = YES
 EXTRACT_ALL            = YES
 BUILTIN_STL_SUPPORT    = YES
