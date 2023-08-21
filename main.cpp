@@ -29,7 +29,7 @@
  * \n
  * <p>
  * In our simplified version of Blackjack, we’re not going to keep track of which specific cards a player has been dealt.
- * We’ll only track the sum of the values of the cards they have been.
+ * We’ll only track the sum of the values of the cards.
  * \n 
  *  
  */
