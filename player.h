@@ -29,12 +29,20 @@ protected:
     Outcome m_outcome{};    
 
 public:
-    Player()
-    {}
+    Player() = default;
     
-    Player(std::string_view name, const int playerLimit) 
-    : m_name{ name }, m_limit{ playerLimit }, m_score{ 0 }, m_stand{ false }, m_busted{ false }, m_outcome{ LOSE }
-    {}
+    Player(
+        std::string_view name,
+        const int playerLimit
+    ) :
+    m_name{ name },
+    m_limit{ playerLimit }, 
+    m_score{ 0 }, 
+    m_stand{ false }, 
+    m_busted{ false }, 
+    m_outcome{ LOSE }
+    {        
+    }
     
     virtual ~Player() = default;
     

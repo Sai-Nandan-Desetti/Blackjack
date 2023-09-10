@@ -18,8 +18,14 @@ class Dealer : public Player
     const int m_dealerLimit{};
 
 public:
-    Dealer(const int playerLimit, const int dealerLimit) : Player("Dealer", playerLimit), m_dealerLimit{ dealerLimit }
-    {}
+    Dealer(
+        const int playerLimit, 
+        const int dealerLimit
+    ) : 
+    Player("Dealer", playerLimit),
+    m_dealerLimit{ dealerLimit }
+    {        
+    }
 
     /**
      * @brief Depending on the \c m_dealerLimit, the dealer can HIT or must STAND
